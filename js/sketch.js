@@ -1,5 +1,8 @@
+var canvas;
+
 function setup() {
-  creareCabvas(400,400);
+  canvas = creareCanvas(400,400);
+  canvas.position(0,0);
 }
 
 
